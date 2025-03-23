@@ -1,0 +1,191 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: #f8f8f8;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: white;
+    border-bottom: 2px solid #ddd;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; /* Align logo to the left */
+}
+
+.logo img {
+    border-radius: 50%;
+    height: 70px; /* Adjust size to suit your layout */
+    width: 70px; /* Adjust size to suit your layout */
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end; /* Align buttons to the right */
+    gap: 10px;
+}
+
+nav .btn {
+    background-color: #6dbd45;
+    border: none;
+    padding: 10px 15px;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+nav .sign-up {
+    background-color: white;
+    border: 2px solid #6dbd45;
+    color: #6dbd45;
+}
+
+.hero {
+    background: url('hero-image.jpg') no-repeat center center/cover;
+    padding: 60px 0;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+.hero .italic {
+    font-style: italic;
+}
+
+.info-section {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin: 40px 0;
+}
+
+.info-box {
+    width: 250px;
+    text-align: center;
+}
+
+.info-box img {
+    width: 50px;
+    height: 50px;
+}
+
+.macro-select {
+    padding: 30px;
+}
+
+.macro-select h2 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.arrow {
+    width: 30px;
+    margin: 10px 0;
+}
+
+.sliders {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 20px;
+}
+
+.slider-box {
+    width: 180px;
+}
+
+.slider-box label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input[type="range"] {
+    width: 100%;
+    appearance: none;
+    height: 5px;
+    background: #6dbd45;
+    border-radius: 5px;
+}
+
+.min-max {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+.buttons .btn {
+    background-color: white;
+    border: 2px solid #6dbd45;
+    color: #6dbd45;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.buttons .search {
+    background-color: #6dbd45;
+    color: white;
+}
+
+.goal-select {
+    text-align: center; /* Center text inside section */
+}
+
+.dropdown {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center the dropdown */
+    justify-content: center;
+    gap: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px; /* Add some spacing from heading */
+}
+
+.dropdown {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.dropdown label {
+    color: #333;
+}
+
+.dropdown select {
+    padding: 8px 12px;
+    font-size: 16px;
+    border: 2px solid #4CAF50;
+    border-radius: 5px;
+    background-color: #fff;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.dropdown select:hover {
+    border-color: #45a049;
+}
+
+.dropdown select:focus {
+    outline: none;
+    border-color: #2e7d32;
+    box-shadow: 0 0 5px rgba(46, 125, 50, 0.5);
+}
